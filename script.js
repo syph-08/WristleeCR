@@ -21,7 +21,7 @@ function renderProducts() {
 
     const infoDiv = document.createElement('div');
     infoDiv.className = 'item-info';
-    infoDiv.innerHTML = `<strong>${item.name}</strong> - $${formatter.format(item.price)}`;
+    infoDiv.innerHTML = `<strong>${item.name}</strong> - ₡${formatter.format(item.price)}`;
 
     const actionsDiv = document.createElement('div');
     actionsDiv.className = 'item-actions';
